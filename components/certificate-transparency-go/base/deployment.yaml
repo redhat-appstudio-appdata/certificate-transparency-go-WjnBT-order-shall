@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: certificate-transparency-go
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/certificate-transparency-go/certificate-transparency-go@sha256:576537b9d4f4d06b7155b1987a43fd6e95cb92d7e7719a6fe0bc2bae5997d2e5
         name: my-go
         ports:
         - containerPort: 8081
