@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: certificate-transparency-go
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/certificate-transparency-go/certificate-transparency-go@sha256:576537b9d4f4d06b7155b1987a43fd6e95cb92d7e7719a6fe0bc2bae5997d2e5
+        name: my-go
+        resources: {}
+status: {}
