@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/certificate-transparency-go/certificate-transparency-go@sha256:f4eb307180ff97910aef13618e5de606453aec8084481ebced4217559ff0939a
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/certificate-transparency-go/certificate-transparency-go@sha256:1d5848a1c48da9019f7b309c0a212bc12e4aa9e9ee9a494450523d8320022ac2
         name: my-go
         resources: {}
 status: {}
