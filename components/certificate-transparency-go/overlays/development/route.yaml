@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: certificate-transparency-go
     app.kubernetes.io/part-of: certificate-transparency-go
-  name: certificate-transparency-cwrh
+  name: certificate-transparency-vrqv
 spec:
   path: /
   port:
